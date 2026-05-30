@@ -53,8 +53,12 @@
   )
 )
 
-(defun diff-revert-hunk ()
+(defun diff-hunk-revert ()
   (interactive)
   (setq current-prefix-arg '(4)) ; C-u
   (call-interactively 'diff-apply-hunk)
 )
+(defalias 'diff-hunk-apply 'diff-apply-hunk)
+(defalias 'diff-buffer-apply 'diff-apply-buffer)
+(defalias 'diff-hunk-refine 'diff-refine-hunk)
+(defalias 'diff-hunk-refresh 'diff-refresh-hunk)
