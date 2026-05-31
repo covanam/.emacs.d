@@ -12,7 +12,8 @@
   :custom
     (evil-want-keybinding nil)
     (evil-want-C-u-scroll t)
-    (evil-search-module 'evil-search)
+  :init
+    (setq evil-search-module 'evil-search)
   :config
     (evil-mode 1)
     (define-key evil-normal-state-map (kbd "SPC") 'avy-goto-word-0)
