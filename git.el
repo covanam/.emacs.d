@@ -13,6 +13,8 @@
     (add-hook 'server-visit-hook (lambda () (with-editor-mode 1)))
 )
 
+(defalias 'git-status 'vc-dir)
+
 (defun git-blame ()
   (interactive)
   (let ((fname (buffer-name)))
