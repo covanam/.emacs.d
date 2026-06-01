@@ -34,12 +34,6 @@
     (evil-collection-repl-submit-state 'insert)
   :config
     (evil-collection-init)
-    (with-eval-after-load 'vc-annotate
-      (evil-define-key 'normal vc-annotate-mode-map (kbd "RET") 'vc-annotate-show-log-revision-at-line)
-    )
-    (with-eval-after-load 'log-view
-      (evil-define-key 'normal log-view-mode-map (kbd "RET") 'log-view-toggle-entry-display)
-    )
 )
 
 (use-package avy
