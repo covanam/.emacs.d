@@ -64,3 +64,4 @@
 (defalias 'diff-buffer-apply 'diff-apply-buffer)
 (defalias 'diff-hunk-refine 'diff-refine-hunk)
 (defalias 'diff-hunk-refresh 'diff-refresh-hunk)
+(defalias 'diff-hunk-split 'diff-split-hunk)
