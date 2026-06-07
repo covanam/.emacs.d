@@ -8,8 +8,7 @@
 (setq remote-file-name-inhibit-locks t)
 
 (use-package evil
-  :ensure t
-  :vc (:url "https://github.com/covanam/evil.git" :rev :newest)
+  :load-path "evil"
   :custom
     (evil-want-keybinding nil)
     (evil-want-C-u-scroll t)
@@ -23,13 +22,11 @@
 
 (use-package annalist
   ; required by evil-collection
-  :ensure t
-  :vc (:url "https://github.com/covanam/annalist.el.git" :rev :newest)
+  :load-path "annalist.el"
 )
 
 (use-package evil-collection
-  :ensure t
-  :vc (:url "https://github.com/covanam/evil-collection.git" :rev :newest)
+  :load-path "evil-collection"
   :custom
     (evil-collection-setup-minibuffer t)
     (evil-collection-repl-submit-state 'insert)

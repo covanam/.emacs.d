@@ -1,0 +1,15 @@
+[submodule "evil"]
+	path = evil
+	url = https://github.com/covanam/evil.git
+[submodule "annalist.el"]
+	path = annalist.el
+	url = https://github.com/covanam/annalist.el.git
+[submodule "evil-collection"]
+	path = evil-collection
+	url = https://github.com/covanam/evil-collection.git
+[submodule "with-editor"]
+	path = with-editor
+	url = https://github.com/covanam/with-editor.git
+[submodule "cond-let"]
+	path = cond-let
+	url = https://github.com/covanam/cond-let.git

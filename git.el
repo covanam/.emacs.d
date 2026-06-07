@@ -1,5 +1,10 @@
+(use-package cond-let
+  ; required by with-editor
+  :load-path "cond-let"
+)
+
 (use-package with-editor
-  :ensure t
+  :load-path "with-editor/lisp"
   :config
     (setq shell-command-with-editor-mode t)
     (add-hook 'shell-mode-hook  'with-editor-export-editor)
