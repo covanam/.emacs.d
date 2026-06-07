@@ -13,3 +13,9 @@
 [submodule "cond-let"]
 	path = cond-let
 	url = https://github.com/covanam/cond-let.git
+[submodule "citre"]
+	path = citre
+	url = https://github.com/covanam/citre.git
+[submodule "dtrt-indent"]
+	path = dtrt-indent
+	url = https://github.com/covanam/dtrt-indent.git
