@@ -19,3 +19,6 @@
 [submodule "dtrt-indent"]
 	path = dtrt-indent
 	url = https://github.com/covanam/dtrt-indent.git
+[submodule "notmuch"]
+	path = notmuch
+	url = https://github.com/covanam/notmuch.git

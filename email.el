@@ -14,7 +14,7 @@
 )
 
 (use-package notmuch
-  :ensure t
+  :load-path "notmuch/emacs"
   :init
     (setq notmuch-search-oldest-first nil)
     ;; pgp information
