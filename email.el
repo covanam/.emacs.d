@@ -1,3 +1,5 @@
+;;; -*- lexical-binding: t; -*-
+
 (use-package smtpmail
   :ensure t
   :init

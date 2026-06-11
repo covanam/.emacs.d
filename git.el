@@ -1,3 +1,5 @@
+;;; -*- lexical-binding: t; -*-
+
 (use-package cond-let
   ; required by with-editor
   :load-path "cond-let"

@@ -1,3 +1,5 @@
+;;; -*- lexical-binding: t; -*-
+
 (use-package citre
   :load-path "citre"
   :init

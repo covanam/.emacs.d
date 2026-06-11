@@ -1,3 +1,5 @@
+;;; -*- lexical-binding: t; -*-
+
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")))
 (setq custom-file (concat user-emacs-directory ".custom.el"))
 (when (display-graphic-p) (tool-bar-mode -1))
