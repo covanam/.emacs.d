@@ -22,11 +22,6 @@
     (define-key evil-visual-state-map (kbd "SPC") 'avy-goto-word-0)
 )
 
-(use-package annalist
-  ; required by evil-collection
-  :load-path "annalist.el"
-)
-
 (use-package evil-collection
   :load-path "evil-collection"
   :custom
