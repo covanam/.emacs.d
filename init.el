@@ -52,6 +52,12 @@
   )
 )
 
+(use-package ivy
+  :ensure t
+  :config
+    (ivy-mode 1)
+)
+
 (load-file (expand-file-name "coding.el" user-emacs-directory))
 (load-file (expand-file-name "email.el" user-emacs-directory))
 (load-file (expand-file-name "git.el" user-emacs-directory))
