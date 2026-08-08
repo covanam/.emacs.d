@@ -27,7 +27,7 @@
   (let ((fname (buffer-name)))
     (if (and fname (string-match "\\(.*\\)\\.~\\([^~]+\\)~$" fname))
       (let ((path (match-string 1 fname))
-            (hash (match-string 2 fname)))
+            (hash (concat (match-string 2 fname) "~")))
         (vc-annotate path hash 'fullscale nil (line-number-at-pos))
       )
       (call-interactively #'vc-annotate)
