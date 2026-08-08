@@ -20,6 +20,7 @@
     (evil-mode 1)
     (define-key evil-normal-state-map (kbd "SPC") 'avy-goto-word-0)
     (define-key evil-visual-state-map (kbd "SPC") 'avy-goto-word-0)
+    (define-key evil-motion-state-map (kbd "SPC") 'avy-goto-word-0)
 )
 
 (use-package evil-collection
