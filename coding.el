@@ -8,9 +8,9 @@
 )
 
 (use-package dtrt-indent
-  :custom
-    (dtrt-indent-global-mode t)
   :load-path "dtrt-indent"
+  :config
+    (dtrt-indent-global-mode)
 )
 
 (setq grep-command "git --no-pager grep --color -nH ")
