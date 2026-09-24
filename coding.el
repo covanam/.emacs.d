@@ -2,6 +2,8 @@
 
 (use-package citre
   :load-path "citre"
+  :custom
+    (citre-find-definition-backends '(tags))
   :init
   :config
     (add-hook 'xref-backend-functions #'citre-xref-backend nil nil)
