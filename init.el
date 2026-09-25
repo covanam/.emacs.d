@@ -30,7 +30,8 @@
     (evil-collection-repl-submit-state 'insert)
   :config
     (evil-collection-init)
-    (setq evil-collection-key-blacklist '("C-d" "C-u" "SPC" "*" "#"))
+    (setq evil-collection-key-blacklist
+      '("C-d" "C-u" "SPC" "*" "#" "d" "A" "a" "*" "D" "d" "i" "o" "s" "c" "x" "#"))
 )
 
 (use-package avy
